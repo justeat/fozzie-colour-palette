@@ -1,0 +1,29 @@
+{
+  "name": "fozzie-colour-palette",
+  "description": "Brand colour palette for projects at Just Eat",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp css:lint",
+    "travis": "yarn run test"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@justeat/gulp-build-fozzie": "^1.4.0"
+  },
+  "keywords": [
+    "fozzie",
+    "css",
+    "scss",
+    "eyeglass-module"
+  ],
+  "eyeglass": {
+    "name": "kickoff-grid",
+    "sassDir": "src/scss",
+    "needs": "^1.1.2",
+    "exports": false
+  },
+  "stylelint": {
+    "extends": "@justeat/stylelint-config-fozzie"
+  }
+}
