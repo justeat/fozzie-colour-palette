@@ -1,3 +1,5 @@
-﻿# Component Template
+# Fozzie Colour Palette
 
-A very rough example of what a global component structure could look like (to be discussed).
+Brand colour palette for projects at Just Eat.
+
+[Zeplin colour palette](https://zpl.io/ZTch33)
