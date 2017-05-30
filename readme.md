@@ -12,8 +12,8 @@ Colours are made available by a number of Sass variables that once the module ha
 
 If you are using the [fozzie gulp build tasks](https://www.npmjs.com/package/@justeat/gulp-build-fozzie), then Eyeglass is automatically setup ready to use.  If not, you can use it in one of the following ways:
 
-[Gulp](https://github.com/sass-eyeglass/eyeglass/blob/master/site-src/docs/integrations/gulp.md)
-[WebPack](https://github.com/sass-eyeglass/eyeglass/issues/153#issuecomment-300895607)
+- [Gulp](https://github.com/sass-eyeglass/eyeglass/blob/master/site-src/docs/integrations/gulp.md)
+- [WebPack](https://github.com/sass-eyeglass/eyeglass/issues/153#issuecomment-300895607)
 
 2.  Install the fozzie-colour-palette module using NPM or Yarn:
 
