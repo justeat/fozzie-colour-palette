@@ -1,5 +1,5 @@
 {
-  "name": "fozzie-colour-palette",
+  "name": "@justeat/fozzie-colour-palette",
   "description": "Brand colour palette for projects at Just Eat",
   "version": "0.1.0",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "eyeglass-module"
   ],
   "eyeglass": {
-    "name": "kickoff-grid",
+    "name": "fozzie-colour-palette",
     "sassDir": "src/scss",
     "needs": "^1.1.2",
     "exports": false
