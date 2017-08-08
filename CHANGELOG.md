@@ -10,6 +10,7 @@ v0.3.0
 
 ### Added
 - Added `$color-headings` variable to provide an abstraction variable for styling heading colour consistently, in line with the brand guidelines.
+- Added `$color-text--hint` variable to provide an abstraction variable for styling text hints in line with the brand guidelines.
 - `dangerfile.js` added to check PRs for changelog entries and `package.json` versioning (if not marked as a trivial change).
 
 ### Changed
