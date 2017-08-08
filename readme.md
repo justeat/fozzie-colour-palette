@@ -1,5 +1,8 @@
 # Fozzie Colour Palette
 
+[![npm version](https://badge.fury.io/js/%40justeat%2Ffozzie-colour-palette.svg)](https://badge.fury.io/js/%40justeat%2Ffozzie-colour-palette)
+[![Build Status](https://travis-ci.org/justeat/fozzie-colour-palette.svg)](https://travis-ci.org/justeat/fozzie-colour-palette)
+
 This module allows projects to import the Just Eat brand colour palette, so that they can always stay up to date with any changes made.
 
 Colours are made available by a number of Sass variables that once the module has been imported can be referenced in a projects Sass files.
