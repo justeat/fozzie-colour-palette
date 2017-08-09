@@ -9,7 +9,7 @@ $black                        : #000;
 $red                          : #d50525;
 $red--dark                    : #b40e27; // for hover of base $red
 $red--darkest                 : #900b1f; // for focus/active of base $red
-$red--offwhite                : #fee;
+$red--offWhite                : #fee;
 
 $pink                         : #ff5959;
 
@@ -24,10 +24,10 @@ $blue--dark                   : #14509c; // for hover of base $blue
 $blue--darkest                : #14427d; // for focus/active of base $blue
 $blue--light                  : #2bace4;
 $blue--lighter                : #7dcaeb;
-$blue--offwhite               : #edf5ff;
+$blue--offWhite               : #edf5ff;
 
 $green                        : #04822c;
-$green--dark                  : #ae3713; // for hover of base $green
+$green--dark                  : #036823; // for hover of base $green
 $green--darkest               : #02531c; // for focus/active of base $green
 $green--light                 : #00ac41;
 $green--offWhite              : #f2fae2;
@@ -68,15 +68,18 @@ $color-secondary              : $blue;
 $color-text                   : $grey--dark;
 $color-text--hint             : $grey--mid;
 $color-headings               : $grey--darkest;
+
 $color-bg                     : $grey--offWhite;
-$color-bg--component          : $grey--lightest;
-$color-border                 : $grey--lighter;
+$color-bg--component          : $white;
+$color-bg--accept             : $green--light;
+$color-bg--notification       : $yellow--light;
+$color-bg--info               : $blue--offWhite;
+$color-bg--error              : $red--offWhite;
+
+$color-border                 : $grey--lightest;
+$color-border--interactive    : $grey--lighter;
 $color-disabled               : $grey--lighter;
 $color-shadow                 : $grey--lightest;
-
-$color-alert-bg               :  $yellow--light;
-$color-statusMsg              :  $orange--light;
-$color-infoMsg                :  $blue--offwhite;
 
 $color-btas-primary           : $purple;
 $color-btas-bg                : $purple--light;
@@ -92,4 +95,4 @@ $color-selection              : inherit;
 $color-selection-bg           : inherit;
 
 // <hr> border color
-$hr-color                     : $color-border;
+$hr-color                     : $grey--lightest;

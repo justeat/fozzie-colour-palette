@@ -4,6 +4,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v0.4.0
+------------------------------
+*August 8, 2017*
+
+### Fixed
+- Use of `--offWhite` was inconsistent in it’s casing across variables.  Has now been normalised.
+- `$green--dark` was actually an orange colour (as it was listed wrong in the design spec).
+
+### Changed
+- Updating background variable colour names to be consistent with the naming of other colour variables.
+- `$hr-color` updated to correct shade of grey.
+- `$color-border--interactive` added, for the borders of interactive elements (such as checkboxes)
+
+
+
 v0.3.0
 ------------------------------
 *August 8, 2017*
