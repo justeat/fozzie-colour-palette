@@ -4,6 +4,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v0.5.0
+------------------------------
+*August 21, 2017*
+
+### Changed
+- Updated `gulp-build-fozzie` version.
+
+### Removed
+- Removed config file and directory.
+
+
 v0.4.0
 ------------------------------
 *August 8, 2017*

@@ -1,5 +1,4 @@
 const gulp = require('gulp');
-const build = require('@justeat/gulp-build-fozzie');
-const config = require('./_build/config');
+const { build } = require('@justeat/gulp-build-fozzie');
 
-build(gulp, config);
+build(gulp);

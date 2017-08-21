@@ -1,15 +1,14 @@
 {
   "name": "@justeat/fozzie-colour-palette",
   "description": "Brand colour palette for projects at Just Eat",
-  "version": "0.4.0",
-  "main": "index.js",
+  "version": "0.5.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:justeat/fozzie-colour-palette.git"
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@justeat/gulp-build-fozzie": "^4.2.0"
+    "@justeat/gulp-build-fozzie": "^5.3.1"
   },
   "keywords": [
     "fozzie",
