@@ -91,6 +91,10 @@ $color-link-hover             : $blue--dark;
 $color-link-active            : $blue--darkest;
 // $color-link-visited           : $color-link-default; // should we use this?
 
+// Focus outline colour – currently defined as default blue that chrome uses
+// Note this doesn't need to be defined in colour palette as it shouldn't be reused
+$color-focus-outline          : #5b9dd9;
+
 // Text Selection – currently defined as brower default
 $color-selection              : inherit;
 $color-selection-bg           : inherit;
