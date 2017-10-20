@@ -19,6 +19,14 @@ v0.7.0
 - Moved `gulp-build-fozzie` into `devDependencies`.
 
 
+v0.7.0
+------------------------------
+*October 18, 2017*
+
+### Changed
+- Moved `gulp-build-fozzie` into `devDependencies`.
+
+
 v0.6.0
 ------------------------------
 *August 24, 2017*
