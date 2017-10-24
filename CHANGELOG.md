@@ -3,6 +3,14 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+v0.8.1
+------------------------------
+*October 24, 2017*
+
+### Updated
+- `$color-focus-outline` updated to `$orange--light`.
+
+
 v0.8.0
 ------------------------------
 *October 20, 2017*
