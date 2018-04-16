@@ -43,15 +43,17 @@ $grey--dark                   : #535353;
 $grey--darkest                : #333;
 
 
-
 // Brand specific colours
-// NOT AA accessibility compliant but available if needed in very specific circumstances
-$brand--red                   : #fa0029; // red used for logo – not accessible and shouldn’t be used indiscriminately
-$brand--green                 : #95d600;
-$brand--lime                  : #e2e71f;
-$brand--orange                : #ff5000;
-$brand--blue                  : #2f7de1;
+// NOT fully AA accessibility compliant but available for text 18px font-size or for incidental background colours
+// These colours were introduced as part of the slingshot UI updates
+$brand--red                   : #fa0029;
+$brand--orange                : #f74c00;
+$brand--green                 : #00A33D;
+$brand--blue                  : #279ed2;
+$brand--pink                  : #f85656;
 
+
+// BTA Brand Colours - only to be used in-line with BTA colours
 $purple                       : #3b1249;
 $purple--light                : #ead9f0;
 
