@@ -11,8 +11,6 @@ $red--dark                    : #b40e27; // for hover of base $red
 $red--darkest                 : #900b1f; // for focus/active of base $red
 $red--offWhite                : #fee;
 
-$pink                         : #ff5959;
-
 $yellow                       : #ffd700;
 $yellow--light                : #fff1df;
 
@@ -29,7 +27,6 @@ $blue--offWhite               : #edf5ff;
 $green                        : #04822c;
 $green--dark                  : #036823; // for hover of base $green
 $green--darkest               : #02531c; // for focus/active of base $green
-$green--light                 : #00ac41;
 $green--offWhite              : #f2fae2;
 
 
@@ -43,15 +40,17 @@ $grey--dark                   : #535353;
 $grey--darkest                : #333;
 
 
-
 // Brand specific colours
-// NOT AA accessibility compliant but available if needed in very specific circumstances
-$brand--red                   : #fa0029; // red used for logo – not accessible and shouldn’t be used indiscriminately
-$brand--green                 : #95d600;
-$brand--lime                  : #e2e71f;
-$brand--orange                : #ff5000;
-$brand--blue                  : #2f7de1;
+// NOT fully AA accessibility compliant but available for text 18px font-size or for incidental background colours
+// These colours were introduced as part of the slingshot UI updates
+$brand--red                   : #fa0029;
+$brand--orange                : #f74c00;
+$brand--blue                  : #279ed2;
+$brand--pink                  : #f85656;
+$brand--green                 : #00a33d;
 
+
+// BTA Brand Colours - only to be used in-line with BTA colours
 $purple                       : #3b1249;
 $purple--light                : #ead9f0;
 
