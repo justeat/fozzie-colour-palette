@@ -66,6 +66,9 @@ $btn-roundedOutline-fillColor--active : $green--dark;
 $btn-rounded-fillColor                : $green;
 
 // Component Colours
+// TODO: It would be best to have the component colours as part of the component itself rather than as part of the colour palette 
+//       See https://github.com/justeat/fozzie-colour-palette/pull/16#pullrequestreview-128398276
+
 $header-border-color             : $brand--green;
 
 $nav-text-color                  : $green;
@@ -73,7 +76,7 @@ $nav-toggleIcon-color            : $brand--green;
 $navContainer-border-color       : $brand--green;
 $nav-text-color--hover           : $green--dark;
 
-$icon-profile--color             : $brand--green;
+$nav-icon-color                  : $brand--green;
 
 $hero-search-background-color    : $white;
 $listing-text-highlight          : $green--dark;
