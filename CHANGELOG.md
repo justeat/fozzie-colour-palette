@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v1.2.0
 ------------------------------
-*June 12, 2018*
+*June 19, 2018*
 
 ### Added
 - Added menulog styles
