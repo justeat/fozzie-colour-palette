@@ -1,0 +1,90 @@
+// =================================
+// Menulog Color palette
+//
+// Only colour overrides should be listed here
+// =================================
+
+$green                        : #22aa1e;
+$green--dark                  : #148212;
+
+$green--darkest               : #11530f;
+
+$orange                       : #c25700;
+
+// Brand specific colours
+// Not accessible in all circumstances but available if needed in certain designs
+$brand--green                 : #26bf22;
+$brand--green--light          : #52e04e;
+$brand--orange                : #ff5f37;
+$brand--orange--dark          : #f55f38; // search button hover bg colour
+$brand--orange--darker        : #ea4a1d; // search button active bg colour
+
+
+// =================================
+// Color Scheme
+// =================================
+// These are the variables that should be used directly in our SCSS (globally)
+
+$color-secondary        : $green--dark;
+$color-link-default     : $color-secondary;
+$color-link-visited     : $color-secondary;
+$color-link-hover       : $brand--green;
+$color-link-active      : $green--darkest;
+$color-focus-outline    : $green;
+
+
+// Overides - theme overide colours for specific components
+// Button Colours
+$btn-primary-bgColor                  : $green;
+$btn-primary-bgColor--highlight       : $brand--green;
+$btn-primary-bgColor--focus           : $green--dark;
+
+$btn-secondary-bgColor                : transparent;
+$btn-secondary-bgColor--highlight     : green--offWhite;
+$btn-secondary-bgColor--active        : green--offWhite;
+$btn-secondary-textColor              : $green;
+
+$btn-tertiary-bgColor                 : transparent;
+$btn-tertiary-bgColor--highlight      : green--offWhite;
+$btn-tertiary-bgColor--active         : $white;
+$btn-tertiary-textColor               : $grey--dark;
+
+$btn-outline-borderColor              : $brand--green;
+$btn-outline-borderColor--hover       : $brand--green;
+$btn-outline-borderColor--active      : $green--dark;
+$btn-outline-bgColor--hover           : green--offWhite;
+$btn-outline-textColor                : $green;
+$btn-outline-textColor--hover         : $brand--green;
+$btn-outline-textColor--active        : $green--dark;
+
+$btnToggle-textColor                  : $grey--dark;
+$btnToggle-textColor--active          : $green;
+$btnToggle-border--active             : $green;
+
+$btn-roundedOutline-fillColor         : $green;
+$btn-roundedOutline-fillColor--active : $green--dark;
+$btn-rounded-fillColor                : $green;
+
+// Component Colours
+// TODO: It would be best to have the component colours as part of the component itself rather than as part of the colour palette 
+//       See https://github.com/justeat/fozzie-colour-palette/pull/16#pullrequestreview-128398276
+
+$header-border-color             : $brand--green;
+
+$nav-text-color                  : $green;
+$nav-toggleIcon-color            : $brand--green;
+$navContainer-border-color       : $brand--green;
+$nav-text-color--hover           : $green--dark;
+
+$nav-icon-color                  : $brand--green;
+
+$hero-search-background-color    : $white;
+$listing-text-highlight          : $green--dark;
+$basket-bg-color                 : $green;
+$promo-primary-bgColor           : $brand--orange;
+$promo-tertiary-color            : $orange;
+
+$custom-input-color              : $brand--green;
+$custom-input-hover-color        : $green--dark;
+$custom-input-borderColor-hover  : $brand--green;
+
