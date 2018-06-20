@@ -11,12 +11,14 @@ v1.4.0
 ### Added
 - Added `prepare` npm script.
 - Added `lint` script to Travis config.
+- Added `files` property to `package.json` so that only the relevant files are published to npm.
 
 ### Changed
 - Bumped DangerJS version.
 - Updated DangerJS config.
 - Updated Travis config.
 - Updated license date.
+- Updated details in `package.json`.
 
 
 v1.3.0
