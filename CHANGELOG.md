@@ -3,6 +3,24 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+v1.4.0
+------------------------------
+*June 20, 2018*
+
+### Added
+- Added `prepare` npm script.
+- Added `lint` script to Travis config.
+- Added `files` property to `package.json` so that only the relevant files are published to npm.
+
+### Changed
+- Bumped DangerJS version.
+- Updated DangerJS config.
+- Updated Travis config.
+- Updated license date.
+- Updated details in `package.json`.
+
+
 v1.3.0
 ------------------------------
 *June 20, 2018*
