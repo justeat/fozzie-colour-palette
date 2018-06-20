@@ -3,6 +3,14 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+v1.3.0
+------------------------------
+*June 20, 2018*
+
+### Added
+- Added SCSS lint script.
+
+
 v1.2.1
 ------------------------------
 *June 19, 2018*
@@ -10,12 +18,14 @@ v1.2.1
 ### Fixes
 - Fixes linting error introduced in 1.2.0
 
+
 v1.2.0
 ------------------------------
 *June 19, 2018*
 
 ### Added
 - Added menulog styles
+
 
 v1.1.0
 ------------------------------
@@ -118,7 +128,6 @@ v0.4.0
 - Updating background variable colour names to be consistent with the naming of other colour variables.
 - `$hr-color` updated to correct shade of grey.
 - `$color-border--interactive` added, for the borders of interactive elements (such as checkboxes)
-
 
 
 v0.3.0
