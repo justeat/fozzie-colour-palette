@@ -14,7 +14,9 @@ v1.4.0
 
 ### Changed
 - Bumped DangerJS version.
+- Updated DangerJS config.
 - Updated Travis config.
+- Updated license date.
 
 
 v1.3.0
