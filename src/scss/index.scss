@@ -102,3 +102,6 @@ $color-selection-bg           : inherit;
 
 // <hr> border color
 $hr-color                     : $grey--lightest;
+
+// import colour palette mixin for Menulog overrides
+@import 'menulog';

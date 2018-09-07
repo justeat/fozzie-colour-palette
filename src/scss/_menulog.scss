@@ -1,0 +1,43 @@
+// =================================
+// Menulog Color Scheme
+//
+// This mixin should be optionally called to override
+// the base JE colour palette variables with Menulog
+// specific colours
+//
+// N.b. Variables defined inside this mixin need to be applied
+// with !global to override its equivalent in the base palette
+// (due to Sass scoping)
+// =================================
+
+@mixin applyScheme-menulog {
+    $green                        : #028a00 !global;
+    $green--dark                  : #026800 !global;
+    $green--darkest               : #003c00 !global;
+    $green--offWhite              : #dfffdf !global;
+
+    $red                          : #cd3c18 !global;
+    $red--dark                    : #a02f13 !global;
+    $red--darkest                 : #871600 !global;
+
+    // Brand specific colours
+    // Not accessible in all circumstances but available if needed in certain designs
+    $brand--green                 : #26bf22 !global;
+
+    // =================================
+    // Color Scheme
+    // =================================
+    // These are the variables that should be used directly in our SCSS (globally)
+
+    $color-primary          : $green !global;
+    $color-secondary        : $red !global;
+
+    // Links
+    $color-link-default     : $color-primary !global;
+    $color-link-visited     : $green--dark !global;
+    $color-link-hover       : $green--dark !global;
+    $color-link-active      : $green--darkest !global;
+
+    // Focus outline colour
+    $color-focus-outline    : $green !global;
+}
