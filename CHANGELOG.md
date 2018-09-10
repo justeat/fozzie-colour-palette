@@ -4,6 +4,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.0
+------------------------------
+*Sept 7, 2018*
+
+### Changed
+- Menulog theming updated (breaking change).
+  The Menulog colours are now specified as a mixin that is called as part of individual modules if the $theme variable is set to 'ml'.  This is so that each project importing fozzie modules only has to specify the theme variable once and each module will take care of it's own colour/variable overrides.
+- Menulog Colour Scheme has been updated in line with the global UI palette provided by AU design team.
+
+
 v1.4.0
 ------------------------------
 *June 20, 2018*

@@ -33,3 +33,44 @@ If you are using the [fozzie gulp build tasks](https://www.npmjs.com/package/@ju
 You can then use any of the colour variables [contained in the module](https://github.com/justeat/fozzie-colour-palette/blob/master/src/scss/index.scss).
 
 It’s recommended that you hook onto and use the variable abstractions such as `$color-text` and `$color-link-default` where it makes sense to, rather than directly onto the colour variables.  That way your project will require less re-factoring should the colour palette ever get a major overhaul in the future and certain colours get replaced and/or renamed.
+
+
+## Available Colour Schemes
+
+The `fozzie-colour-palette` allows for the definition of platform specific colour schemes.  The colour schemes currently available are:
+
+### Just Eat Default Colour Scheme
+
+To apply the default Just Eat colour scheme, simply import this module like so:
+
+```scss
+  @import 'fozzie-colour-palette';
+```
+
+If you are already importing the [base `fozzie` module](https://www.npmjs.com/package/@justeat/fozzie) there will be no need to import `fozzie-colour-palette` as this is baked in by default to that module.  The default colour scheme will therefore automatically be setup when importing the base `fozzie` module.
+
+
+###  Menulog Colour Scheme
+
+To apply the Menulog colour palette, you need to import the default colour scheme, and then call the `applyScheme-menulog` mixin, which provides a set of theme overrides.
+
+To do this, define a `$theme` variable  and set it to `'ml'`.  Then conditionally call the Menulog colour scheme mixin:
+
+```scss
+  $theme: 'ml';
+
+  @import 'fozzie-colour-palette';
+
+  @if ($theme == 'ml') {
+      @include applyScheme-menulog;
+  }
+```
+
+If you are using the base `fozzie` module, simply setting the `$theme: 'ml';` before importing the `fozzie` module will automatically take care of this step for you:
+
+```scss
+  $theme: 'ml';
+
+  @import 'fozzie'; // this will now load in the fozzie-colour-palette module with Menulog overrides
+```
+
