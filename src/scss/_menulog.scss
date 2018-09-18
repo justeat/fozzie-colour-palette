@@ -12,13 +12,9 @@
 
 @mixin applyScheme-menulog {
     $green                        : #028a00 !global;
-    $green--dark                  : #026800 !global;
+    $green--dark                  : #0f550c !global;
     $green--darkest               : #003c00 !global;
     $green--offWhite              : #dfffdf !global;
-
-    $red                          : #cd3c18 !global;
-    $red--dark                    : #a02f13 !global;
-    $red--darkest                 : #871600 !global;
 
     // Brand specific colours
     // Not accessible in all circumstances but available if needed in certain designs
@@ -30,7 +26,7 @@
     // These are the variables that should be used directly in our SCSS (globally)
 
     $color-primary          : $green !global;
-    $color-secondary        : $red !global;
+    $color-secondary        : $orange !global;
 
     // Links
     $color-link-default     : $color-primary !global;

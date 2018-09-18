@@ -3,6 +3,17 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+v2.1.0
+------------------------------
+*Sept 19, 2018*
+
+### Changed
+- Menulog `$green--dark` updated.
+- Secondary colour updated to be `$orange` for the Menulog theme.
+
+### Removed
+- More Menulog theme updates.  Removed custom Menulog `$red` overrides (as no longer required – the red and orange were very close in colour).
+
 
 v2.0.0
 ------------------------------
