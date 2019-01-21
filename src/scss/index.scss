@@ -103,5 +103,20 @@ $color-selection-bg           : inherit;
 // <hr> border color
 $hr-color                     : $grey--lightest;
 
+// =================================
+// Wallpapers 
+// ---
+// Wallpaper colours are used for the background colour for 
+// when an elm has overlaying a icon wallpaper
+// =================================
+
+$wallpaper-blue               : #2f7de1;
+$wallpaper-blue--light        : $blue--light;
+$wallpaper-red                : #f32424;
+$wallpaper-red--light         : #ff5000;
+$wallpaper-green              : #00ac41;
+$wallpaper-green--light       : #98c926;
+
+
 // import colour palette mixin for Menulog overrides
 @import 'menulog';
