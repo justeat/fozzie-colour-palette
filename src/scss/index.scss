@@ -103,18 +103,25 @@ $color-selection-bg           : inherit;
 // <hr> border color
 $hr-color                     : $grey--lightest;
 
+// Brand ray colors
+
+$brand-rays--blue             : #2f7de1;
+$brand-rays--blue-light       : $blue--light;
+$brand-rays--orange           : #ff5000;
+$brand-rays--green            : #00ac41;
+
 // =================================
 // Wallpapers 
 // ---
-// Wallpaper colours are used for the background colour for 
+// Wallpaper colors are used for the background colour for 
 // when an elm has overlaying a icon wallpaper
 // =================================
 
-$wallpaper-blue               : #2f7de1;
-$wallpaper-blue--light        : $blue--light;
+$wallpaper-blue               : $brand-rays--blue;
+$wallpaper-blue--light        : $brand-rays--blue-light;
 $wallpaper-red                : #f32424;
-$wallpaper-red--light         : #ff5000;
-$wallpaper-green              : #00ac41;
+$wallpaper-orange             : $brand-rays--orange;
+$wallpaper-green              : $brand-rays--green;
 $wallpaper-green--light       : #98c926;
 
 

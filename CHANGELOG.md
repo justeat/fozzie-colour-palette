@@ -5,9 +5,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 v2.2.0
 ------------------------------
-*January 21, 2018*
+*January 23, 2019*
 
 ### Added
+- Added available brand ray colours 
 - Added wallpaper colours 
 
 v2.1.0
