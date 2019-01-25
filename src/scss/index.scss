@@ -50,6 +50,13 @@ $brand--pink                  : #f85656;
 $brand--green                 : #00a33d;
 
 
+// Brand ray colors
+$brand-rays--blue             : #2f7de1;
+$brand-rays--blue-light       : $blue--light;
+$brand-rays--orange           : #ff5000;
+$brand-rays--green            : #00ac41;
+
+
 // BTA Brand Colours - only to be used in-line with BTA colours
 $purple                       : #3b1249;
 $purple--light                : #ead9f0;
@@ -102,6 +109,22 @@ $color-selection-bg           : inherit;
 
 // <hr> border color
 $hr-color                     : $grey--lightest;
+
+
+// =================================
+// Wallpapers
+// ---
+// Wallpaper colors are used for the background colour for
+// when an elm has overlaying a icon wallpaper
+// =================================
+
+$wallpaper-blue               : $brand-rays--blue;
+$wallpaper-blue--light        : $brand-rays--blue-light;
+$wallpaper-red                : #f32424;
+$wallpaper-orange             : $brand-rays--orange;
+$wallpaper-green              : $brand-rays--green;
+$wallpaper-green--light       : #98c926;
+
 
 // import colour palette mixin for Menulog overrides
 @import 'menulog';
