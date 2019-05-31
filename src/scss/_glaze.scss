@@ -14,21 +14,22 @@
 
     $coral--lightest           : #fff0f0 !global;
     $coral--lighter            : #ffcfcf !global;
-    $coral--light              : #f85656 !global;
-    $coral--mid                : #d23737 !global;
-    $coral--dark               : #b40e27 !global;
-    $coral--darkest            : #870014 !global;
+    $coral--light              : #f19393 !global;
+    $coral--mid                : #f85656 !global;
+    $coral--dark               : #d23737 !global;
+    $coral--darker             : #b40e27 !global;
+	$coral--darkest            : #870014 !global;
 
     // =================================
     // Color Scheme
     // =================================
     // These are the variables that should be used directly in our SCSS (globally)
 
-    $color-secondary           : $coral--light !global;
+    $color-secondary           : $coral--mid !global;
 
     // Links
-    $color-link-default        : $coral--mid !global;
-    $color-link-visited        : $coral--dark !global;
-    $color-link-hover          : $coral--dark !global;
+    $color-link-default        : $coral--dark !global;
+    $color-link-visited        : $coral--darker !global;
+    $color-link-hover          : $coral--darker !global;
     $color-link-active         : $coral--darkest !global;
 }
