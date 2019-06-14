@@ -1,7 +1,7 @@
 {
   "name": "@justeat/fozzie-colour-palette",
   "description": "Brand colour palette for projects at Just Eat",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "files": [
     "src"
   ],

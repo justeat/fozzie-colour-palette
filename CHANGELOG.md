@@ -3,12 +3,23 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
+v2.4.0
+------------------------------
+*June 14, 2019*
+
+### Changed
+- Yarn.lock update for indirect dependencies to fix vulnerability issues
+- Travis uses node v8 & v10 to run builds.
+
+
 v2.3.0
 ------------------------------
 *May 31, 2019*
 
 ### Added
 - Added Glaze Colour Scheme
+
 
 v2.2.0
 ------------------------------
@@ -17,6 +28,7 @@ v2.2.0
 ### Added
 - Added available brand ray colours 
 - Added wallpaper colours 
+
 
 v2.1.0
 ------------------------------
