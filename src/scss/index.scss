@@ -76,6 +76,7 @@ $color-text--hint             : $grey--mid;
 $color-text--success          : $green;
 $color-text--danger           : $red;
 $color-text--warning          : $orange;
+$color-text--description      : $blue;
 $color-headings               : $grey--darkest;
 $color-headings--highlight    : $brand--red;  // only to be used at large font sizes (for AA)
 
@@ -85,11 +86,11 @@ $color-bg--accept             : $green--offWhite;
 $color-bg--notification       : $yellow--light;
 $color-bg--info               : $blue--offWhite;
 $color-bg--error              : $red--offWhite;
-$color-bg--default            : $blue;
+$color-bg--basket            : $blue;
 
 $color-border                 : $grey--lightest;
 $color-border--interactive    : $grey--lighter;
-$color-border--default        : $blue;
+$color-border--switch        : $blue;
 $color-disabled               : $grey--lighter;
 $color-shadow                 : $grey--lightest;
 
@@ -114,10 +115,6 @@ $hr-color                     : $grey--lightest;
 
 // Alert messages
 $color-alert-message          : $blue;
-
-// Text descriptions
-$color-text-description       : $blue;
-
 
 
 // =================================

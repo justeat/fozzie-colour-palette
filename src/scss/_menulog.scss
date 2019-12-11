@@ -34,9 +34,10 @@
     //Common colors
     $color-bg--info               : $green--light !global;
     $color-bg--error              : $red--light !global;
-    $color-bg--default            : $green !global;
+    $color-bg--basket            : $green !global;
+    $color-text--description      : $green !global;
 
-    $color-border--default        : $green !global;
+    $color-border--switch        : $green !global;
 
     // Links
     $color-link-default           : $green !global;
@@ -52,7 +53,4 @@
 
     // Alert messages
     $color-alert-message          : $green !global;
-
-    // Text descriptions
-    $color-text-description       : $green !global;
 }
