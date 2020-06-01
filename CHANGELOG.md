@@ -4,6 +4,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v3.0.0-beta.0
+------------------------------
+*June 1, 2020*
+
+### Changed
+- Menulog theme updated in line with new takeaway.com brand colours refresh. These will eventually move to be the default theme in the full release of v3.0.0.
+  These changes will be versioned as a beta release to save on a number of full version bumps as there will be some big changes to the core themes in a short space of time as we move to one consolidated theme (woop!).
+
+### Removed
+- Glaze colour scheme removed as no longer needed (these changes supercede Glaze).
+
+
 v2.5.1
 ------------------------------
 *January 2, 2020*

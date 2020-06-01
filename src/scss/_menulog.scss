@@ -11,39 +11,60 @@
 // =================================
 
 @mixin applyScheme-menulog {
-    $green                        : #028a00 !global;
-    $green--dark                  : #0f550c !global;
-    $green--darkest               : #003c00 !global;
-    $green--light                 : #f2fae2 !global;
-    $green--offWhite              : #dfffdf !global;
-
-    $red--light                   : #fff1df !global;
 
     // Brand specific colours
-    // Not accessible in all circumstances but available if needed in certain designs
-    $brand--green                 : #26bf22 !global;
+    // NOT AA accessible but available for elements and backgrounds that don't need to be accessible
+    $brand--orange                : #ff8000 !global;
+
+    $green                        : #357d6e !global;
+
+    $orange-largeText             : #f36d00 !global;
+    $orange-largeText--dark       : #e96800 !global; // used for hover of base $orange-largeText
+    $orange-largeText--darkest    : #cb5b00 !global; // used for focus/active of base $orange-largeText
+
+    $orange-aa                    : #cd4900 !global;
+    $orange-aa--dark              : #c44600 !global; // used for hover of base $orange-aa
+    $orange-aa--darkest           : #ac3d00 !global; // used for focus/active of base $orange-aa
+
+    $violet                       : #4950b9 !global;
+    $violet--dark                 : #464cb1 !global; // used for hover of base $violet
+    $violet--darkest              : #3d439b !global; // used for focus/active of base $violet
+    $violet--offWhite             : #f1effb !global;
+    $violet--offWhite--dark       : #e7e5f1 !global; // used for hover of base $violet--offWhite
+    $violet--offWhite--darkest    : #cac8d2 !global; // used for hover of base $violet--offWhite
+
+    $red--offWhite                   : #fff1df !global;
+    $green--offWhite              : #edf9ef !global;
+    $orange--offWhite             : #ffe6cc !global;
+    $blue--offWhite               : #e5f8fb !global;
+    $yellow--light                : #fff5cd !global;
 
     // =================================
     // Color Scheme
     // =================================
     // These are the variables that should be used directly in our SCSS (globally)
 
-    $color-primary                : $green !global;
-    $color-secondary              : $orange !global;
+    $color-primary                : $orange-largeText !global;
+    $color-secondary              : $violet !global;
 
     //Common colors
-    $color-bg--info               : $green--light !global;
-    $color-bg--error              : $red--light !global;
+    $color-text--success          : $green !global;
+    $color-text--danger           : $red !global;
+
+    $color-bg--accept             : $green--offWhite !global;
+    $color-bg--notification       : $yellow--light !global;
+    $color-bg--info               : $green--offWhite !global;
+    $color-bg--error              : $red--offWhite !global;
 
     // Links
-    $color-link-default           : $green !global;
-    $color-link-visited           : $green--dark !global;
-    $color-link-hover             : $green--dark !global;
-    $color-link-active            : $green--darkest !global;
+    $color-link-default           : $violet !global;
+    $color-link-visited           : $violet--dark !global;
+    $color-link-hover             : $violet--dark !global;
+    $color-link-active            : $violet--darkest !global;
 
     // Focus outline colour
-    $color-focus-outline          : $green !global;
+    $color-focus-outline          : $orange-largeText !global;
 
     // Icons
-    $icon-base--primary           : $green !global;
+    $icon-base--primary           : $grey--darkest !global;
 }
