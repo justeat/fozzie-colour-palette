@@ -130,3 +130,6 @@ $icon-base--primary           : $blue;
 
 // import colour palette mixin for Menulog overrides
 @import 'menulog';
+
+// import colour palette mixin for Glaze overrides (used in Payments temporarily)
+@import 'glaze';
