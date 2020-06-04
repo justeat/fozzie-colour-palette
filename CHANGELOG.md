@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v3.0.0-beta.1
+------------------------------
+*June 4, 2020*
+
+### Changed
+- Added Glaze back in to colours as still used on Payments UK (can delete when re-branding UK)
+
+
 v3.0.0-beta.0
 ------------------------------
 *June 1, 2020*
