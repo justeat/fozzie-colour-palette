@@ -6,55 +6,46 @@
 $white                        : #fff;
 $black                        : #000;
 
-$red                          : #d50525;
-$red--dark                    : #b40e27; // for hover of base $red
-$red--darkest                 : #900b1f; // for focus/active of base $red
-$red--offWhite                : #fee;
+// Brand specific Orange
+// NOT AA accessibility compliant but available for background or visual highlights
+$brand--orange                : #ff8000;
 
-$yellow                       : #ffd700;
-$yellow--light                : #fff1df;
+// Web Orange
+// NOT fully AA accessibility compliant but available for text 18px font-size or for incidental background colours
+$orange                       : #f36d00;
+$orange--dark                 : #cb5b00;
+$orange--darkest              : #a44900;
 
-$orange                       : #cd390c;
-$orange--light                : #ff9e16;
+// Fully accessible orange
+$orange--aa                   : #cd4900;
+$orange--aa--dark             : #c44600;
+$orange--aa--darkest          : #8b3100;
 
-$blue                         : #266abd;
-$blue--dark                   : #14509c; // for hover of base $blue
-$blue--darkest                : #14427d; // for focus/active of base $blue
-$blue--light                  : #2bace4;
-$blue--lighter                : #7dcaeb;
-$blue--offWhite               : #edf5ff;
+$orange--offWhite             : #ffe6cc; // for background highlight and warnings
 
-$green                        : #04822c;
-$green--dark                  : #036823; // for hover of base $green
-$green--darkest               : #02531c; // for focus/active of base $green
-$green--offWhite              : #f2fae2;
 
+$blue                         : #0b74a1;
+$blue--dark                   : #0a6f9a; // for hover of base $blue
+$blue--darkest                : #09658d; // for focus/active of base $blue
+$blue--offWhite               : #edf7fc;
+$blue--offWhite--dark         : #e3edf2; // for hover of base $blue--offWhite
+$blue--offWhite--darkest      : #d0d8dd; // for focus/active of base $blue--offWhite
+
+$red                          : #e11725;
+$red--offWhite                : #ffe9ea;
+
+$green                        : #04824b;
+$green--offWhite              : #ecffeb;
+
+$yellow--offWhite             : #fff9df;
 
 // Greys – listed from lightest to darkest - these are the full range of greys we can use
 $grey--offWhite               : #f5f5f5;
-$grey--lightest               : #eaeaea;
-$grey--lighter                : #cacaca;
-$grey--light                  : #bbb;
+$grey--lighter                : #eaeaea;
+$grey--light                  : #cacaca;
 $grey--mid                    : #757575;
 $grey--dark                   : #535353;
 $grey--darkest                : #333;
-
-
-// Brand specific colours
-// NOT fully AA accessibility compliant but available for text 18px font-size or for incidental background colours
-// These colours were introduced as part of the slingshot UI updates
-$brand--red                   : #f50028;
-$brand--orange                : #f74c00;
-$brand--blue                  : #279ed2;
-$brand--pink                  : #f85656;
-$brand--green                 : #00a33d;
-
-
-// Brand ray colors
-$brand-rays--blue             : #2f7de1;
-$brand-rays--blue-light       : $blue--light;
-$brand-rays--orange           : #ff5000;
-$brand-rays--green            : #00ac41;
 
 
 // BTA Brand Colours - only to be used in-line with BTA colours
@@ -67,7 +58,7 @@ $purple--light                : #ead9f0;
 // =================================
 // These are the variables that should be used directly in our SCSS (globally)
 
-$color-primary                : $red;
+$color-primary                : $orange;
 $color-secondary              : $blue;
 
 // Common colors
@@ -75,21 +66,21 @@ $color-text                   : $grey--dark;
 $color-text--hint             : $grey--mid;
 $color-text--success          : $green;
 $color-text--danger           : $red;
-$color-text--warning          : $orange;
+$color-text--warning          : $orange--aa;
 $color-headings               : $grey--darkest;
-$color-headings--highlight    : $brand--red;  // only to be used at large font sizes (for AA)
+$color-headings--highlight    : $orange;  // only to be used at large font sizes (for AA)
 
 $color-bg                     : $grey--offWhite;
 $color-bg--component          : $white;
 $color-bg--accept             : $green--offWhite;
-$color-bg--notification       : $yellow--light;
+$color-bg--notification       : $yellow--offWhite;
 $color-bg--info               : $blue--offWhite;
 $color-bg--error              : $red--offWhite;
 
-$color-border                 : $grey--lightest;
-$color-border--interactive    : $grey--lighter;
-$color-disabled               : $grey--lighter;
-$color-shadow                 : $grey--lightest;
+$color-border                 : $grey--lighter;
+$color-border--interactive    : $grey--light;
+$color-disabled               : $grey--light;
+$color-shadow                 : $grey--lighter;
 
 $color-btas-primary           : $purple;
 $color-btas-bg                : $purple--light;
@@ -101,35 +92,25 @@ $color-link-active            : $blue--darkest;
 // $color-link-visited           : $color-link-default; // should we use this?
 
 // Focus outline colour
-$color-focus-outline          : $orange--light;
+$color-focus-outline          : $blue;
 
-// Text Selection – currently defined as brower default
+// Text Selection – currently defined as browser default
 $color-selection              : inherit;
 $color-selection-bg           : inherit;
 
 // <hr> border color
-$hr-color                     : $grey--lightest;
+$hr-color                     : $grey--lighter;
 
 
 // =================================
 // Wallpapers
 // ---
-// Wallpaper colors are used for the background colour for
+// Wallpaper colours are used for the background colour for
 // when an elm has overlaying a icon wallpaper
 // =================================
 
-$wallpaper-blue               : $brand-rays--blue;
-$wallpaper-blue--light        : $brand-rays--blue-light;
-$wallpaper-red                : #f32424;
-$wallpaper-orange             : $brand-rays--orange;
-$wallpaper-green              : $brand-rays--green;
-$wallpaper-green--light       : #98c926;
+$wallpaper-blue               : $blue;
+$wallpaper-orange             : $brand--orange;
 
 // Icons
-$icon-base--primary           : $blue;
-
-// import colour palette mixin for Menulog overrides
-@import 'menulog';
-
-// import colour palette mixin for Glaze overrides (used in Payments temporarily)
-@import 'glaze';
+$icon-base--primary           : $black;
