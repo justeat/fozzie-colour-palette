@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v3.0.0-beta.3
+------------------------------
+*July 20, 2020*
+
+### Changed
+- Updated colours to be more in-line with PIE redesign colour scheme. The next step to move to full `v3` will be to integrate the PIE colour tokens into this package so the colours being used are from the same source as the apps.
+
+
 v3.0.0-beta.2
 ------------------------------
 *June 18, 2020*
