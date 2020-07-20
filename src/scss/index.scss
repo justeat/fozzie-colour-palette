@@ -13,39 +13,39 @@ $brand--orange                : #ff8000;
 // Web Orange
 // NOT fully AA accessibility compliant but available for text 18px font-size or for incidental background colours
 $orange                       : #f36d00;
-$orange--dark                 : #cb5b00;
+$orange--dark                 : #df6400;
 $orange--darkest              : #a44900;
 
 // Fully accessible orange
 $orange--aa                   : #cd4900;
-$orange--aa--dark             : #c44600;
+$orange--aa--dark             : #bc4300;
 $orange--aa--darkest          : #8b3100;
 
-$orange--offWhite             : #ffe6cc; // for background highlight and warnings
+$orange--offWhite             : #ffead4; // for background highlight and warnings
 
 
-$blue                         : #0b74a1;
-$blue--dark                   : #0a6f9a; // for hover of base $blue
-$blue--darkest                : #09658d; // for focus/active of base $blue
-$blue--offWhite               : #edf7fc;
-$blue--offWhite--dark         : #e3edf2; // for hover of base $blue--offWhite
-$blue--offWhite--darkest      : #d0d8dd; // for focus/active of base $blue--offWhite
+$blue                         : #125fca;
+$blue--dark                   : #0f4fa9; // for hover of base $blue
+$blue--darkest                : #0d4089; // for focus/active of base $blue
+$blue--offWhite               : #e7f1fe;
+$blue--offWhite--dark         : #dde7f4; // for hover of base $blue--offWhite
+$blue--offWhite--darkest      : #cad3df; // for focus/active of base $blue--offWhite
 
-$red                          : #e11725;
+$red                          : #d50525;
 $red--offWhite                : #ffe9ea;
 
-$green                        : #04824b;
-$green--offWhite              : #ecffeb;
+$green                        : #006631;
+$green--offWhite              : #e5faef;
 
 $yellow--offWhite             : #fff9df;
 
 // Greys – listed from lightest to darkest - these are the full range of greys we can use
-$grey--offWhite               : #f5f5f5;
-$grey--lighter                : #eaeaea;
-$grey--light                  : #cacaca;
-$grey--mid                    : #757575;
-$grey--dark                   : #535353;
-$grey--darkest                : #333;
+$grey--offWhite               : #f9fafb;
+$grey--lighter                : #f1f2f4;
+$grey--light                  : #e2e6e9;
+$grey--mid                    : #c5ccd3;
+$grey--dark                   : #5e6b77;
+$grey--darkest                : #2a3846;
 
 
 // BTA Brand Colours - only to be used in-line with BTA colours
