@@ -62,7 +62,7 @@ $color-primary                : $orange;
 $color-secondary              : $blue;
 
 // Common colors
-$color-text                   : $grey--dark;
+$color-text                   : $grey--darkest;
 $color-text--hint             : $grey--mid;
 $color-text--success          : $green;
 $color-text--danger           : $red;
@@ -77,10 +77,10 @@ $color-bg--notification       : $yellow--offWhite;
 $color-bg--info               : $blue--offWhite;
 $color-bg--error              : $red--offWhite;
 
-$color-border                 : $grey--lighter;
+$color-border                 : $grey--mid;
 $color-border--interactive    : $grey--light;
 $color-disabled               : $grey--light;
-$color-shadow                 : $grey--lighter;
+$color-shadow                 : $grey--mid;
 
 $color-btas-primary           : $purple;
 $color-btas-bg                : $purple--light;
@@ -99,7 +99,7 @@ $color-selection              : inherit;
 $color-selection-bg           : inherit;
 
 // <hr> border color
-$hr-color                     : $grey--lighter;
+$hr-color                     : $grey--mid;
 
 
 // =================================
