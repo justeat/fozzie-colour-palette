@@ -4,6 +4,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v3.0.0-beta.5
+------------------------------
+*July 23, 2020*
+
+### Changed
+- Updated `$color-border--interactive` to be slightly darker grey.
+
+
 v3.0.0-beta.4
 ------------------------------
 *July 21, 2020*
