@@ -24,6 +24,7 @@ $orange--aa--darkest          : #8b3100;
 $orange--offWhite             : #ffead4; // for background highlight and warnings
 
 
+$blue--light                  : #4996fd; // used for outlines
 $blue                         : #125fca;
 $blue--dark                   : #0f4fa9; // for hover of base $blue
 $blue--darkest                : #0d4089; // for focus/active of base $blue
@@ -44,6 +45,7 @@ $grey--offWhite               : #f9fafb;
 $grey--lighter                : #f1f2f4;
 $grey--light                  : #e2e6e9;
 $grey--mid                    : #c5ccd3;
+$grey--midDark                : #929faa;
 $grey--dark                   : #5e6b77;
 $grey--darkest                : #2a3846;
 
@@ -93,7 +95,7 @@ $color-link-active            : $blue--darkest;
 // $color-link-visited           : $color-link-default; // should we use this?
 
 // Focus outline colour
-$color-focus-outline          : $blue;
+$color-focus-outline          : $blue--light;
 
 // Text Selection – currently defined as browser default
 $color-selection              : inherit;
