@@ -1,7 +1,7 @@
 {
   "name": "@justeat/fozzie-colour-palette",
   "description": "Brand colour palette for projects at Just Eat",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "files": [
     "src"
   ],
@@ -34,7 +34,7 @@
   "eyeglass": {
     "name": "fozzie-colour-palette",
     "sassDir": "src/scss",
-    "needs": "^1.1.2",
+    "needs": "^3.0.2",
     "exports": false
   },
   "stylelint": {
